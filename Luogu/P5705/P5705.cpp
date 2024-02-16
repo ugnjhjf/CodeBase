@@ -24,4 +24,5 @@ double Area(double a, double b, double c)
     double area = (p * (p - a) * (p - b) * (p - c));
     area = pow(area, 0.5);
     return area;
+
 }
