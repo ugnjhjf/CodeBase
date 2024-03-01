@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cstring>
+using namespace std;
 class Solution
 {
 public:
@@ -19,3 +25,10 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    vector<string> strs = {"flower", "flow", "flight"};
+    Solution s1 = new Solution(strs);
+    cout << s1.longestCommonPrefix(strs) << endl;
+}
